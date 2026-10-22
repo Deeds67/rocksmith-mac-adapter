@@ -121,6 +121,10 @@ sudo rm -rf /Library/Audio/Plug-Ins/HAL/RocksmithAdapter.driver
 sudo killall -9 coreaudiod
 ```
 
+## License
+
+MIT (see [LICENSE](LICENSE)). This covers this repo's code only. The BlackHole driver that `build-driver.sh` downloads and builds is GPL-3.0.
+
 ## Credits
 
 - Virtual device: [BlackHole](https://github.com/ExistentialAudio/BlackHole) by Existential Audio (GPL-3.0)
